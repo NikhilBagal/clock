@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-  /*  background: url(506888.jpg);*/
+    background: url(506888.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -11,9 +11,12 @@ body {
 }
 .radio {
     position: absolute;
-    top: 40%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%,-10%);
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: bold;
 }
 .clock {
     display: flex;
